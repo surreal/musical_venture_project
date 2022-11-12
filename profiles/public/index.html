@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>מייזם מוזיקלי - משתמשים</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="/__/firebase/7.2.3/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.2.3/firebase-analytics.js"></script>
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css"/>
+</head>
+<body>
+
+    <div class="MainDivClass" id="loggedDiv">
+
+        <button id="logoutButton" class="logoutBlock" name="button" onclick="logout()">LOGOUT</button>
+        <h3 id="loggedUser"  class="logoutBlock"></h3>
+        <h1 name="title" id="title">מיזם מוזיקלי</h1>
+
+        <div id="topDiv">
+    
+            <select id="spinner" class="spinner" name="name">
+                <option></option>
+            </select>
+            <div class="breacking_line"></div>
+
+            <div>
+                <p class="quastion_key">גיל: <span class="quastion_value" id="user_age">and here another part</span></p>
+                <p class="quastion_key">עיר: <span class="quastion_value" id="user_city">and here another part</span></p>
+                <p class="quastion_key">טלפון: <span class="quastion_value" id="user_phone_number">and here another part</span></p>
+
+                <p class="quastion_key">מבנה גוף: <span class="quastion_value" id="user_body">and here another part</span></p>
+                <p class="quastion_key">יש לך בטחון עצמי? <span class="quastion_value" id="is_has_confidence">and here another part</span></p>
+                <p class="quastion_key">אוהב לשיר ומעוניין להופיע? <span class="quastion_value" id="is_like_to_sing_whant_to_show">and here another part</span></p>
+                <p class="quastion_key">חושב שיש לך קול שמתאים לשירה? <span class="quastion_value" id="is_has_voice_fits_vocals">and here another part</span></p>
+                <p class="quastion_key">יודע לרקוד? <span class="quastion_value" id="is_know_to_dance">and here another part</span></p>
+                <p class="quastion_key">מנגן על גיטרה? <span class="quastion_value" id="is_playing_guitar">and here another part</span></p>
+                <p class="quastion_key">מנגן על גיטרה חשמלית? <span class="quastion_value" id="is_playing_electric_guitar">and here another part</span></p>
+                <p class="quastion_key">מנגן על חצוצרה? <span class="quastion_value" id="is_playing_trumpet">and here another part</span></p>
+                <p class="quastion_key">מנגן על תופים? <span class="quastion_value" id="is_playing_drums">and here another part</span></p>
+                <p class="quastion_key">מנגן על קלדים? <span class="quastion_value" id="is_playing_keyboards">and here another part</span></p>
+            </div>
+
+            <div class="breacking_line"></div>
+
+            <label class="secondary_title" id="havePicture"></label>
+            <br>
+            <img id="image">
+            <div class="breacking_line"></div>
+            
+        </div>
+
+    </div>
+
+    <div id="loginDiv" align="center">
+        <input id="email" placeholder="שם משתמש" class="loginDetails" name="email" type="email" required/>
+        <input id="password" placeholder="סיסמה" class="loginDetails" name="password" type="password" required/>
+        <button id="loginButton" name="button" onclick="login()">LOGIN</button>
+    </div>
+
+    <script src="check_login.js"></script>
+    <script src="load_profiles.js"></script>
+
+</body>
+</html>

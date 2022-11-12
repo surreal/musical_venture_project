@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>מייזם מוזיקלי - פרטי משתמש</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.2.3/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.2.3/firebase-analytics.js"></script>
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css"/>
+</head>
+<body class="opinion_app">
+
+    
+    <h1 name="title" id="title">מיזם מוזיקלי</h1>
+    
+    <form class="opinionForm" action="/sent">
+
+      <h3 id="secondary_title">שלום מחפשים אותך למייזם מוזיקלי חדש.</h3>
+      <br>
+
+       שם:
+      <input id="name" name="name" type="text" required>
+      <br>
+      <br>
+      טלפון:
+      <input id="phoneNumber" name="phone_number" type="text" required minlength="9">
+      <br>
+      <br>
+      גיל:
+      <input id="age" name="age" type="number" required>
+      <br>
+      <br>
+      עיר:
+      <input id="city" name="city" type="text" required>
+      <br>
+      <br>
+      <div class="breacking_line"></div>
+
+      אוהב לשיר ומעוניין להופיע?
+      <br>
+      <br>
+      <div class="container_two_options">
+          <label  class="two_options_group">
+              <label for="yes">כן</label>
+              <input value="כן" type="radio" name="is_like_to_sing_whant_to_show" id="yes">
+              <span class="checkmark"></span>
+          </label>
+          <label  class="two_options_group">
+              <label for="no">לא</label>
+              <input value="לא" type="radio" name="is_like_to_sing_whant_to_show" id="no" checked>
+              <span class="checkmark" id="span_woman"></span>
+          </label>
+      </div>
+          
+      <div class="breacking_line"></div>
+
+      חושב שיש לך קול שמתאים לשירה?
+      <br>
+      <br>
+      <div class="container_two_options">
+          <label  class="two_options_group">
+              <label for="yes">כן</label>
+              <input value="כן" type="radio" name="is_has_voice_fits_vocals" id="yes">
+              <span class="checkmark"></span>
+          </label>
+          <label  class="two_options_group">
+              <label for="no">לא</label>
+              <input value="לא" type="radio" name="is_has_voice_fits_vocals" id="no" checked>
+              <span class="checkmark" id="span_woman"></span>
+          </label>
+        </div>
+          
+      <div class="breacking_line"></div>
+
+      יש לך בטחון עצמי?
+      <br>
+      <br>
+      <div class="container_two_options">
+          <label  class="two_options_group">
+              <label for="yes">כן</label>
+              <input value="כן" type="radio" name="is_has_confidence" id="yes">
+              <span class="checkmark"></span>
+          </label>
+          <label  class="two_options_group">
+              <label for="no">לא</label>
+              <input value="לא" type="radio" name="is_has_confidence" id="no" checked>
+              <span class="checkmark" id="span_woman"></span>
+          </label>
+      </div>
+
+      <div class="breacking_line"></div>
+
+      יודע לרקוד?
+      <br>
+      <br>
+      <div class="container_two_options">
+          <label  class="two_options_group">
+              <label for="yes">כן</label>
+              <input value="כן" type="radio" name="is_know_to_dance" id="yes">
+              <span class="checkmark"></span>
+          </label>
+          <label  class="two_options_group">
+              <label for="no">לא</label>
+              <input value="לא" type="radio" name="is_know_to_dance" id="no" checked>
+              <span class="checkmark" id="span_woman"></span>
+        </label>
+      </div>
+      
+        <div class="breacking_line"></div>
+
+      מנגן על כלי נגינה?
+      <br>
+      <br>
+        
+    <div class="container_checkbox">
+        <input type="checkbox" name="is_playing_guitar" id="isPlayingGuitar">
+        <label for="isPlayingGuitar">גיטרה</label>
+    </div>
+    <div class="container_checkbox">
+        <input type="checkbox" name="is_playing_electric_guitar" id="isPlayingElectricGuitar">
+        <label for="isPlayingElectricGuitar">גיטרה חשמלית</label>
+    </div>
+    <div class="container_checkbox">
+        <input type="checkbox" name="is_playing_trumpet" id="isPlayingTrumpet">
+        <label for="isPlayingTrumpet">חצוצרה</label>
+    </div>
+    </div>
+    <div class="container_checkbox">
+        <input type="checkbox" name="is_playing_drums" id="isPlayingDrums">
+        <label for="isPlayingDrums">תופים</label>
+    </div>
+    </div>
+    <div class="container_checkbox">
+        <input type="checkbox" name="is_playing_keyboards" id="isPlayingKeyboards">
+        <label for="isPlayingKeyboards">קלדים</label>
+    </div>
+
+      <div class="breacking_line"></div>
+
+      מבנה גוף:
+      <select id="body"  name="body">
+          <option>רזה</option>
+          <option>ספורטיבי</option>
+          <option>מלא</option>
+          <option>אחר</option>
+      </select>
+      <br>
+      <div class="breacking_line"></div>
+      
+      <input class="selectFileClass" title="בחר תמונה" id="selectFileButtonId" type="file" accept="image/*" />
+      <progress value="0" id="uploader" max="100">0%</progress>
+      <input id="picturePath" name="picture_path" type="text" style="visibility: hidden;"/>
+
+      <div class="breacking_line"></div>
+      <input id="submitBtn" type="submit" value="שלח"/>
+    </form>
+
+    <div class="breacking_line"></div>
+
+    <div  id="loggedDiv"></div>
+
+    <script src="on_send_tap.js"></script>
+
+</body>
+</html>

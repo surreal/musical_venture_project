@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "site":"musical-venture-opinions",
+    "public": "public",
+    "rewrites":[{
+      "source": "/sent",
+      "function": "app"
+    },
+    {
+      "source": "/get_users",
+      "function": "app"
+    }],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
