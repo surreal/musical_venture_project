@@ -87,7 +87,6 @@ app.get('/get_users', (request, response) => {
           };
           array.push(profileObject);
         }
-        /** response for ajax request from html  */
         response.send(array);
         console.log("fields == " + result[0].name);
     });
