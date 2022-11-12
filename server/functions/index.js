@@ -18,6 +18,7 @@ app.get('/sent', (request, response) => {
     if (err) throw err;
     console.log("Successfully Connected with DB");
 
+    const namea = request.query.name ? request.query.name : null;
     const name = request.query.name ? request.query.name : null;
     const phoneNumber = request.query.phone_number ? request.query.phone_number : null;
     const age = request.query.age ? request.query.age : null;
