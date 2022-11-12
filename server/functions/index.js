@@ -3,16 +3,6 @@ const functions = require('firebase-functions');
 const express = require('express');
 const app = express();
 const mysql = require('mysql');
-// import { initializeApp } from 'firebase/app';
-const firebase = require("firebase/app");
-// const serviceAccount = require("./itcm-solutions-firebase-adminsdk-j333v-8c81b52a42.json");
-// const admin = require("firebase-admin");
-// admin.initializeApp({
-//   credential: admin.credential.cert(serviceAccount),
-//   databaseURL: "https://itcm-solutions.firebaseio.com"
-// });
-// const firebaseStorage = admin.storage();
-// const bucket = firebaseStorage.bucket('itcm-solutions.appspot.com');
 
 console.log("index.js STARTED");
 
@@ -105,50 +95,3 @@ app.get('/get_users', (request, response) => {
 });
 
 exports.app = functions.https.onRequest(app);
-
-// var firebase = require("firebase/app");
-// var remoteFile = bucket.file('somefile-inThisCaseASong.mp3');
-// var db = admin.database();
-// var ref = db.ref("/");
-
-// function handleFileUploadChange(e){
-//    let selectedFile = e.target.files[0];
-//    function handleFileUploadSubmit(e) {
-//     const uploadTask = storageRef.child(`images/${selectedFile.name}`).put(selectedFile); //create a child directory called images, and place the file inside this directory
-//     uploadTask.on('state_changed', (snapshot) => {
-//     // Observe state change events such as progress, pause, and resume
-//     }, (error) => {
-//       // Handle unsuccessful uploads
-//       console.log(error);
-//     }, () => {
-//        // Do something once upload is complete
-//        console.log('success');
-//     });
-//   }
-// }
-
-
-// var file = "C:\Users\Andrey\Pictures\clouds-daylight-hd-wallpaper.jpg";
-// firebase.storage().ref().put(file)
-//     .then(snapshot => {
-//         console.log('Uploaded.');
-//     });
-
-        //console.log('DB ref: ' + ref); //just to debug, if undefined, there's a problem.
-// var gcloud = require('@google-cloud/storage');
-// var gcs = gcloud.storage({
-//   projectId: 'itcm-solutions',
-//   keyFilename: 'C:/Users/Andrey/Desktop/Projects/Itcm/opinions/musical_venture/functions/itcm-solutions-firebase-adminsdk-j333v-8c81b52a42(1).json'
-// });
-
-// var firebaseConfig = {
-//     apiKey: 'AIzaSyBhyTEns7LPZ-B_TE5hrX8KdlZ1iYtHLPY',
-//     authDomain: 'itcm-solutions.firebaseapp.com',
-//     databaseURL: 'https://itcm-solutions.firebaseio.com',
-//     storageBucket: 'itcm-solutions.appspot.com'
-//   };
-//firebase.initializeApp(firebaseConfig);
-// let storageService = firebase.storage().ref();
-// let storageRef = storageService.ref();
-// const appi = firebase.initializeApp(firebaseConfig);
-// const storage = firebase.storage();
