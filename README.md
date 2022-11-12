@@ -12,10 +12,10 @@
 פטרונות וסביבות טכנולוגיים שיישמתי:
 </h4>
 <p>
-1. שפות שהשתמשתי לטובת בניית אפליקציות: <strong>JAVASCRIPT, HTML, CSS, NODEJS.</strong><br>
-2. אפליקציה מתקשרת בעזרת טכנולוגיית <strong>REST</strong> עם השרת שבניתי אותו במסגרת <strong></strong> כדי לשמור ולקבל נתונים מבסיס נתונים.<br>
-3. FIREBASE STORAGE - שימש <strong>בשרת קבצים</strong> כדי לשמור תמונת משתמש.<br>
-4. FIREBASE AUTHENTICATION - <strong>שימוש <strong>בשירות ההזדהות</strong>.
+1. שפות שהשתמשתי לטובת בניית אפליקציות: <strong>JavaScript, HTML, CSS, NodeJS.</strong><br>
+2. אפליקציה מתקשרת בעזרת טכנולוגיית <strong>REST</strong> עם השרת שבניתי אותו במסגרת <strong>Node JS</strong> כדי לשמור ולקבל נתונים מבסיס נתונים.<br>
+3. Firebase Storage - שימש <strong>בשרת קבצים</strong> כדי לשמור תמונת משתמש.<br>
+4. Firebase Authentication - <strong>שימוש <strong>בשירות ההזדהות</strong>.
  </p>
  
  <h2>
