@@ -22,6 +22,10 @@
 צד זה צריך לענות על כמה שאלות, לבחור תמונה כאופציה ולשלוח את הפרטים.
 .הפרטים נשמרים בבסיס נתונים ותמונה נשמרת בשרת קבצים
 </div>
+<div>
+<img src="https://user-images.githubusercontent.com/16803977/201473723-c8e4fea2-fa92-44d7-a079-3a22c9a5d5af.png" width="100" title="screenshot 2">
+<img src="https://user-images.githubusercontent.com/16803977/201473725-0e281d6e-c1be-440a-8153-dfc6b781cfad.png" width="100" title="screenshot 3">
+</div>
 
  <h3>
 אפליקציה שניה - צד ממיין את מועמדים 
@@ -30,13 +34,12 @@
 האפליקציה השנייה למי צריך לבחור מועמדים.
 מכיוון שאפליקציה זאת מציגה פרטים אישיים משתמש חייב לעבור הזדהות קודם ולאחר זה ניתן לבחור משתמש מתוך רשימה ולראות את כל הפרטים שלו
 
+<div>
+<img src="https://user-images.githubusercontent.com/16803977/201473727-7bf45233-9144-4cb7-b3b7-1f40297d6a89.png" width="100" title="screenshot 1">
+<img src="https://user-images.githubusercontent.com/16803977/201473729-28f52f52-ff08-41b9-8ab7-9ee7fbd57b51.png" width="100" title="screenshot 4">
+<img src="https://user-images.githubusercontent.com/16803977/201473730-48c0dba3-9e89-4d7f-9f9b-c8bcc7efbd69.png" width="100" title="screenshot 5">
+</div>
+
 פרטי התחברות:
 User name: ok@ok.com
 Password: 111111
-
-![תמונה5](https://user-images.githubusercontent.com/16803977/201473727-7bf45233-9144-4cb7-b3b7-1f40297d6a89.png)
-![תמונה1](https://user-images.githubusercontent.com/16803977/201473723-c8e4fea2-fa92-44d7-a079-3a22c9a5d5af.png)
-![תמונה2](https://user-images.githubusercontent.com/16803977/201473725-0e281d6e-c1be-440a-8153-dfc6b781cfad.png)
-![תמונה3](https://user-images.githubusercontent.com/16803977/201473729-28f52f52-ff08-41b9-8ab7-9ee7fbd57b51.png)
-![תמונה4](https://user-images.githubusercontent.com/16803977/201473730-48c0dba3-9e89-4d7f-9f9b-c8bcc7efbd69.png)
-
