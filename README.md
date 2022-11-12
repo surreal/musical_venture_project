@@ -12,10 +12,10 @@
 פטרונות וסביבות טכנולוגיים שיישמתי:
 </h4>
 <p>
-1. שפות שהשתמשתי לטובת בניית אפליקציות: JAVASCRIPT, HTML, CSS, NODEJS.<br>
-2. אפליקציה מתקשרת בעזרת טכנולוגיית REST עם השרת שבניתי אותו במסגרת NODE JS כדי לשמור ולקבל נתונים מבסיס נתונים.<br>
-3. FIREBASE STORAGE - שימש בשרת קבצים כדי לשמור תמונת משתמש.<br>
-4. FIREBASE AUTHENTICATION5 - שימוש בשירות ההזדהות.
+1. שפות שהשתמשתי לטובת בניית אפליקציות: <strong>JAVASCRIPT, HTML, CSS, NODEJS.</strong><br>
+2. אפליקציה מתקשרת בעזרת טכנולוגיית <strong>REST</strong> עם השרת שבניתי אותו במסגרת <strong></strong> כדי לשמור ולקבל נתונים מבסיס נתונים.<br>
+3. FIREBASE STORAGE - שימש <strong>בשרת קבצים</strong> כדי לשמור תמונת משתמש.<br>
+4. FIREBASE AUTHENTICATION - <strong>שימוש <strong>בשירות ההזדהות</strong>.
  </p>
  
  <h2>
