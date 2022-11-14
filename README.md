@@ -1,4 +1,4 @@
-# musical_venture_project
+# Musical Venture Project
 <div dir="rtl">
 
 <h1>
@@ -38,10 +38,13 @@
 
 האפליקציה השנייה למי שצריך לבחור מועמדים.
 מכיוון שאפליקציה זאת מציגה פרטים אישיים משתמש חייב לעבור הזדהות קודם ולאחר זה ניתן לבחור משתמש מתוך רשימה ולראות את כל הפרטים שלו.
-
-
-פרטי התחברות:
-User name: ok@ok.com
+<h2>
+האפיקציות מאוחסנות בשרתי Firebase hosting <br>
+</h2>
+https://musical-venture-opinions.web.app | https://musical-venture-profiles.web.app <br>
+<br><br>
+פרטי התחברות לצד ממיין מועמדים: <br>
+User name: ok@ok.com <br>
 Password: 111111
 <br><br>
 <div>
