@@ -44,8 +44,8 @@
 https://musical-venture-opinions.web.app | https://musical-venture-profiles.web.app <br>
 <br><br>
 פרטי התחברות לצד ממיין מועמדים: <br>
-User name: ok@ok.com <br>
-Password: 111111
+שם משתמש: ok@ok.com <br>
+סיסמה: 111111
 <br><br>
 <div>
 <img src="https://user-images.githubusercontent.com/16803977/201473729-28f52f52-ff08-41b9-8ab7-9ee7fbd57b51.png" width="250" title="screenshot 4">
